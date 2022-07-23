@@ -1,0 +1,12 @@
+.interact {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    padding: 40px;
+}
+
+.interact>fieldset {
+    width: 20%;
+}

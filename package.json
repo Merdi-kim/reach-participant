@@ -1,0 +1,17 @@
+{
+    "name": "@reach-sh/reach-participant",
+    "type": "",
+    "dependencies": {
+        "@randlabs/myalgo-connect": "^1.2.0",
+        "@reach-sh/stdlib": "^0.1.11-rc.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.3.0"
+    },
+    "author": "reach.sh",
+    "license": "Apache-2.0",
+    "scripts": {
+        "lint": "eslint --ignore-path .gitignore --ext .mjs .",
+        "index": "node --experimental-modules --unhandled-rejections=strict index.mjs"
+    }
+}

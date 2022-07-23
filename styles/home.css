@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+}
+
+.home_container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to left, rgb(42, 63, 67), rgb(157, 157, 234), rgb(100, 100, 157), gray);
+    padding: 0;
+    margin: 0;
+}
+
+.modal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(29, 30, 3, .4);
+}
+
+.modal>p {
+    width: 80%;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30vh;
+    color: white;
+    font-family: sans-serif;
+}
+
+.modal button {
+    margin-top: 4rem;
+    height: 3rem;
+    width: 25%;
+    font-size: 22px;
+    font-weight: 800;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
